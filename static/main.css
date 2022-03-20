@@ -1,0 +1,88 @@
+.container{
+    width: 70%;
+    margin: 8rem auto 4rem;
+}
+.header{
+    width: 100%;
+    background-color: rgb(0, 0, 121);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.logo-wrapper{
+    width: 30%;
+    display: inline-block;
+}
+#logo{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 2rem auto 3rem 2rem;
+}
+.form-container{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+}
+.form-container form input{
+    display: inline-block;
+    width: 60%;
+    height: 3rem;
+    border-radius: 25px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+.form-container form button{
+    display: inline-block;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase; 
+}
+.form-container form button:active{
+    background-color: white;
+    color: rgb(0, 0, 121);
+}
+.main-body{
+    border: 1px solid rgb(0, 0, 121);
+}
+.card-container{
+    margin: 1.5rem;
+}
+.card{
+    width: 25%;
+    height: 10rem;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgb(37, 37, 175);
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: auto 1rem 1rem;
+}
+.card button{
+    width: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    margin-right: 0.5rem;
+}
+.card button:active{
+    background-color: white;
+    color:rgb(37, 37, 175);
+}
+.btn-case{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
