@@ -86,3 +86,66 @@
     bottom: 2rem;
     right: 2rem;
 }
+
+/*====================================mobile devices===================================*/
+@media screen and (max-width:576px){
+    .container {
+        width: 90%;
+        margin: 1rem auto 2rem;
+    }
+    .header{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .logo-wrapper{
+        width: 20%;
+    }
+    #logo{
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .form-container{
+        width: 100%;
+        display: block;
+        margin-top: 1rem;
+    }
+    .form-container form input {
+        width: 65%;
+        height: 2rem;
+        margin-right: 0rem;
+    }
+    .form-container form button{
+        height: 2rem;
+        width: 4rem;
+        margin-right: 1rem;
+    }
+    .card-container {
+        margin: 1rem;
+    }
+    .card{
+        width: 70%;
+        display: block;
+        margin: auto auto 2rem;
+    }
+}
+/*======================small======================*/
+@media screen and (min-width:576px) and (max-width:992px){
+    .container {
+        width: 85%;
+        margin: 3rem auto 3rem;
+    }
+    .form-container{
+        width: 68%;
+    }
+    .card{
+        width: 35%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .card{
+        width: 23%;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+}
+
